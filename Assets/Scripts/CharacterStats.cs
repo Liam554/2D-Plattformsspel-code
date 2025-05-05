@@ -58,7 +58,6 @@ public class CharacterStats : MonoBehaviour
 
     protected virtual void Die()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public int GetMaxHealthValue()
